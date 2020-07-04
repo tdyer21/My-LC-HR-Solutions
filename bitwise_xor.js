@@ -15,5 +15,6 @@ var xorOperation = function(n, start) {
     }
     console.log(nums)
     return bitacc;
+    //
     
 };
