@@ -35,13 +35,14 @@ for(let i = 0; i < len; i++) {
 #### Interview Structure
 - Generally 2-3 Phone screenings, and 3-6 on site interviews. 
 - Always ask if phone screening interviews will include technical questions
+  
 
 ### Important Questions to prep:
 - _Why do you want to work at x company?_: Prove that you're passionate about the companyn  
-
-
-
-
+   
+   
+   
+   
 ## Before an Interview
 > "Few things are as impressive to an interviewer as a candidate who built something just for fun."
 
@@ -54,11 +55,12 @@ for(let i = 0; i < len; i++) {
 
 #### What languages should you list?
 - Anything on your resume is considered fair game - caveat is whether or not you list your skill set with the given language. 
+  
 
 ### Track Mistakes
 - Keep a log of the questions you tend to miss when trying practice questions so you know what to go back to later on. 
-
-
-
-
+   
+   
+   
+   
 ## Behavioral Questions
