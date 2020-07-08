@@ -132,3 +132,20 @@ Example of O(n) space complexity:
 >}
 
 This produces n calls to sum on the stack, thus O(n) space complexity. 
+
+##### If calls dont exist simultaneously on the call stack (not recursive), you only need O(1) space
+
+### What do we not care about:
+- It's ok to **drop constants**, don't count individual lines of code because we can't possibly determine execution time of everything, basically we're just counting loops and recursion.
+- **Ignore non-dominant terms**, in the case of O(N^2 + N) the '+ N' can be ignored
+
+#### Multi-part algorithms
+- When should we add runtimes, and when should we multiply them? for example O(A + B) or O(A * B).
+- **Nested loops = multiply**
+- **Separate loops = add**
+
+### Amortized Time
+- **ArrayLists** are dynamically resizing arrays, we won't run out of space using them because we can simply append. They are implemented using arrays, and when a new element is needed they create a new array with 2x capacity and copy elements. 
+- How can we describe the above runtime for adding elements? the array could be full aka O(N) time, or it could have space resulting in O(1) time.
+
+> To account for both, we use **Amortized Time**, allowing us to describe that things balance out eventually, and it really only takes O(1) time to add. 
