@@ -17,7 +17,7 @@ for(let i = 0; i < len; i++) {
 }
 `
 
-### The Interview Process
+## The Interview Process
 - The majority of the interview process is likely algorithm/coding
 - Verbalize your thought process when tackling problems
 - Will generally be assessed on the following:
@@ -37,4 +37,28 @@ for(let i = 0; i < len; i++) {
 - Always ask if phone screening interviews will include technical questions
 
 ### Important Questions to prep:
-- Why do you want to work at x company?
+- _Why do you want to work at x company?_: Prove that you're passionate about the companyn  
+
+
+
+
+## Before an Interview
+> "Few things are as impressive to an interviewer as a candidate who built something just for fun."
+
+### Writing a good resume
+- Adding less relevant stuff just distracts from the impressive parts of a resume.
+- All that matters and all that you have to prove is that you're smart, and you can code.
+
+#### Add a projects section to my actual resume **flag**
+- Include 2 - 4 most significant projects. State what the project was and what technologies and languages it employed. Whether or not the project was individual. Independant projects > course projects as they show more initiative.
+
+#### What languages should you list?
+- Anything on your resume is considered fair game - caveat is whether or not you list your skill set with the given language. 
+
+### Track Mistakes
+- Keep a log of the questions you tend to miss when trying practice questions so you know what to go back to later on. 
+
+
+
+
+## Behavioral Questions
