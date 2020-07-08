@@ -59,8 +59,7 @@ for(let i = 0; i < len; i++) {
 
 ### Track Mistakes
 - Keep a log of the questions you tend to miss when trying practice questions so you know what to go back to later on. 
-   
-   
-   
-   
+\
+\
+\
 ## Behavioral Questions
