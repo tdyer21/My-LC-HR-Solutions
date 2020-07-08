@@ -57,9 +57,53 @@ for(let i = 0; i < len; i++) {
 - Anything on your resume is considered fair game - caveat is whether or not you list your skill set with the given language. 
   
 
-### Track Mistakes
+### Track Misztakes
 - Keep a log of the questions you tend to miss when trying practice questions so you know what to go back to later on. 
 \
 \
-\
 ## Behavioral Questions
+\
+\
+Make an interview Prep Grid.(page 32)
+- Have a story prepped for "Tell me about yourself"
+(I have experiences all across the map with different frameworks and languages, and pride myself in my ability to learn quickly.) Additionally, tie your answer into why you should be considered for the role and casually drop in some self plugs like things you accomplished. (because of my ability to adapt quickly I feel like I would thrive in this small team environment).
+
+### General tips
+- When asked your greatest weakness: actually give one, otherwise you sound arrogant.
+- When describing your technical projects, focus your individual contributions instead of going on at length about the group, use I instead of we.
+
+### Structuring an answer
+"Tell me about a time you had to persuade a group of people to make a big change. 
+- first provide a nugget, or interesting piece of information "Sure, let me explain how I convinced my school to let undergrads teach courses."
+
+#### Know your technical projects
+- Deeply understand what you're going to say about each technical project you've worked on, why you had a large part in the project's success and what components were difficult.
+
+#### Questions to ask
+- **Genuine Questions**: What is the interaction like between teams here? What brought you to this company?
+- **Insightful Questions**: Why does your software do X instead of Y?
+- **Passion Questions**: Will I have the ability to be a part of other teams and learn skills outside my job description?
+
+\
+\
+\
+\
+
+## Big O
+> Big O time is the language and metric to describe algorithm efficiency. Master this concept.
+
+### Time Complexity - Asymptotic runtime
+Suppose you had to transfer a file, if the file is super large it might be more efficient to physically deliver it. 
+- **Electronic Transfer**: O(s): "s" is the size of the file you're transferring: time to transfer the file increases linearly with the size of the file. 
+- **Airplane Transfer**: O(1): with respect to the size of the file, as the size of the file increases, the time to execute remains constant. 
+
+### Big O/Theta/Omega
+#### O (big O):
+Describes the upper bound on time, for example an algorithm that prints all the elements of an array might be described as O(n) where n is the length of the array, or O(n^2). This means that the algorithm is at least as fast of these - they denote the worst case runtime. A simple array traversal could also be described as O(n^3) and still be accurate technically, its like saying im at least 5 years old - accurate but not descriptive.
+#### Omega(big Omega):
+Omega is the equivalent concept but for lower bound
+#### Theta(big Theta):
+Combination of both, you know if an alg is both O(n) and Omega(n) then theta gives a tight bound on runtime. 
+
+#### Disclaimer
+Industry tends to use O(n) to describe more of what theta actually describes. b
