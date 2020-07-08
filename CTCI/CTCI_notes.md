@@ -121,3 +121,14 @@ Quick sort picks a random array element as a **'pivot'** and then swaps elements
 > Best, worst, and average case scenarios describe the big O (theta) time for particular inputs (how bad can it be)
 
 ### Space Complexity
+A parallel concept to time complexity, if we create an array of size n, we require O(n) space, 2d array O(N^2)
+
+Example of O(n) space complexity:
+>int sum(int n){
+>   if(some condition){
+>       return 0;
+>   }
+>   return n + sum(n-1);
+>}
+
+This produces n calls to sum on the stack, thus O(n) space complexity. 
