@@ -106,4 +106,18 @@ Omega is the equivalent concept but for lower bound
 Combination of both, you know if an alg is both O(n) and Omega(n) then theta gives a tight bound on runtime. 
 
 #### Disclaimer
-Industry tends to use O(n) to describe more of what theta actually describes. b
+Industry tends to use O(n) to describe more of what theta actually describes. 
+
+\
+\
+
+### Example - Quicksort
+Quick sort picks a random array element as a **'pivot'** and then swaps elements in the array such that elements less than the pivot appear before elements greater than the pivot. Then recursively does this for the remaining sides.
+
+- **Best Case run time**: If all elements are equal, quicksort will traverse through the array one time on average aka O(N) where N is the length of the array
+- **Worst Case run time**: Each pivot chosen happens to be the biggest element in the array, this does not produce sorted subarrays, it just shrinks the subarray by one element and has O(N^2) runtime
+- **Average Case run time**: O(NlogN)
+
+> Best, worst, and average case scenarios describe the big O (theta) time for particular inputs (how bad can it be)
+
+### Space Complexity
