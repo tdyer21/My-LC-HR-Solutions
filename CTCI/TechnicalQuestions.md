@@ -33,3 +33,49 @@ For each problem in CTCI do the following:
 
 #### Step 2 - Draw an example
 - Immediately draw, use real examples and non-balanced trees, and large examples.
+
+#### Step 3 - State a brute force algorithm
+- Its ok for your first algorithm to not be super optimal, its not assumed that you know the easy answer, some people might not
+- Exaplain space/time complexity of your solution and improve from there. 
+
+#### Step 4 - Optimize
+Optimize your brute force algorithm.
+- Look for unused information. Were you told that the array was sorted? How can we leverage that?
+- Use a fresh example
+- Solve 'incorrectly' 
+- Time/space tradeoff, often adding more state can help reduce runtime
+- Precompute information
+- Use a hash table - should be at the top of your mind. 
+- Think about the best conceivable runtime. 
+
+#### Step 5 - Walkthrough
+- Dont dive into code yet, walk through your algorithm
+- 'Perfect' it before you type
+
+#### Step 6 - Implement
+- Write code on the whiteboard
+
+
+#### Step 7 - Test
+- 1: Concept test (does the code do what it should be doing when you describe it out loud)
+- 2: Weird looking code (length - 2) etc, is it really necessary?
+- 3: Hot spots, Base cases in recursive code, integer division, null nodes etc. 
+- 4: Small test cases
+
+
+### Optimize and Solve Technique 1 - BUD
+**BUD**
+**B**ottlenecks
+**U**nnecessary work
+**D**uplicated work
+
+The three most common things that an algorithm wastes time doing. 
+
+- **Bottlenecks**: If we have one component of our solution that takes O(N*logN) and another that takes O(N), you should focus on improving the NlogN component, as the N is irrelevant in relation. 
+- **Unnecessary Work**: If you have already found a solution and keep iterating for whatever reason its unnecessary. 
+
+### Optimize and Solve Technique 2 - DIY
+- When given a sorted array, it isnt instinct to use binary search without previous knowledge, but given a phone book and a name - you generally pick a spot in the middle and go from there, naturally binary searching
+- If its easier to solve a certain way in your brain, its likely easier to solve that way for the computer. 
+
+### Optimize and Solve Technique 3 - Simplify and Generalize
